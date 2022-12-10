@@ -1,0 +1,40 @@
+@media (min-width:768px) {
+    .new-input{
+        width: 50%;
+    }
+}
+.card:hover{
+    transform: scale(1.03);
+}
+body::before{
+    content: '';
+    height: 4.5rem;
+    display: block;
+}
+#grids .col-md:hover{
+    transform: scale(1.03);
+}
+@media (max-width:375px) {
+    #grids .column{
+        margin-bottom: 10px;
+    }
+    #grids p{
+        font-size: 14px;
+    }
+    #grids h3{
+        font-size: 17px;
+    }
+    #instructors img{
+        border-radius: 25%;
+    }
+    #grids a{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    #instructors h3{
+        font-size: 15px;
+    }
+    #instructors p{
+        font-size: 14px;
+    }
+}
